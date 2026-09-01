@@ -1,6 +1,6 @@
 ===BEGIN LAB1 SUBMISSION===
 student_id: 6705140040
-timestamp: 2026-09-01T06:35:22Z
+timestamp: 2026-09-01T07:18:44Z
 hostname: ubuntu
 ---[user: getent passwd]---
 alice780:x:1001:1001::/home/alice780:/bin/sh
@@ -12,8 +12,8 @@ uid=1001(alice780) gid=1001(webteam) groups=1001(webteam)
 /home/alice780/report_7632.txt mode=640 owner=alice780 group=webteam
 ---[sshd effective config]---
 port 2360
-permitrootlogin yes
+permitrootlogin no
 passwordauthentication no
 ---[integrity]---
-sshd_sha256: 41920a348982ad186f9dad192143e358cdf7cb902a7b1fdee367c30bd068660a
+sshd_sha256: 34e2949e85ffc12ffe5e8cbd10f274d38bae77d1aa7502c576e59762195b4c4f
 ===END LAB1 SUBMISSION===
